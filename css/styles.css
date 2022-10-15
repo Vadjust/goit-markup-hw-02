@@ -83,7 +83,8 @@ ul {
 .button:hover,
 .button:focus {
     color: var(--primary-text-color);
-    background-color: var(--accent-color);}
+    background-color: var(--accent-color);
+    cursor: pointer;}
 
 
 .section-title {
@@ -98,7 +99,6 @@ ul {
 .section-text {
     color: var(--title-text-color);
 
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -117,10 +117,12 @@ ul {
 .link-button {
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);}
+
 .features .link-button:hover,
 .features .link-button:focus  {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 
