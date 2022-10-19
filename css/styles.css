@@ -79,7 +79,8 @@ ul {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.06em;}
+    letter-spacing: 0.06em;
+    font-family: inherit; }
 
 .button:hover,
 .button:focus {
@@ -109,7 +110,6 @@ ul {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    color: var(--primary-text-color);
 }
 
 .section-text {
@@ -132,7 +132,6 @@ ul {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--primary-text-color);
 }
 
 .projects-text {
@@ -188,6 +187,7 @@ ul {
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
+    font-family: inherit;
     color: var(--primary-text-color); }
     
     
